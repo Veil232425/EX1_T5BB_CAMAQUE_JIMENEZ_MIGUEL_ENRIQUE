@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Imprimir">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resumen de servicio" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombres del cliente:" />
+
+        <EditText
+            android:id="@+id/edt2NomCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="DNI:" />
+
+        <EditText
+            android:id="@+id/edt2DNI"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="Servicio:" />
+
+        <EditText
+            android:id="@+id/edt2Servicio"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Costo de servicio" />
+
+        <EditText
+            android:id="@+id/edt2CServicio"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Costo de instalación:" />
+
+        <EditText
+            android:id="@+id/edt2CInstalacion"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Descuento:" />
+
+        <EditText
+            android:id="@+id/edt2Descuento"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar:" />
+
+        <EditText
+            android:id="@+id/edt2TotalPagar"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
